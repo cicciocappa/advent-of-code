@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const input = fs.readFileSync('./day-20-input.txt', 'utf8').trimEnd(),
+const input = fs.readFileSync('./day-20-input.txt', 'utf8').trimEnd();
 const ranges = input.split('\n').map(line => line.split('-').map(i => parseInt(i, 10)));
 const MAX = 4294967295;
 
